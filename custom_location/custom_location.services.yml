@@ -1,0 +1,11 @@
+services:
+  #Service name.
+  custom_location.site_location_time:
+    # Class that renders the service.
+    #As Drupal 8 uses PSR-4 autoloader, we skip src.
+    class: Drupal\custom_location\Services\CurrentLocationTimeService
+    #// Arguments that will come to the class constructor.
+    arguments:
+      - '@config.factory'
+      - '@datetime.time' 
+      - '@date.formatter'

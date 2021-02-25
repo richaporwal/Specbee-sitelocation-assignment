@@ -1,0 +1,13 @@
+name: Custom Location
+type: module
+description: 'Contains the information of Site location and the current time for the location.'
+package: Custom
+core_version_requirement: ^8 || ^9
+dependencies:
+  - system (>=8.0)
+  
+# Information added by Richa Porwal packaging script on 2021-02-24
+version: '8.x-1.1'
+core: '8.x'
+project: 'custom_location'
+datestamp: 1584403200

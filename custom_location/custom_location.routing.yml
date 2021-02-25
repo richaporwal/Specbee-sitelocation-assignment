@@ -1,0 +1,8 @@
+# Location Setting Form
+custom_location.site_location_settings:
+  path: '/admin/config/site-location'
+  defaults:
+    _form: '\Drupal\custom_location\Form\LocationSettingForm'
+    _title: 'Site Location Setting'
+  requirements:
+    _permission: 'site location settings form'

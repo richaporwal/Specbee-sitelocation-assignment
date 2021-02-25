@@ -1,0 +1,6 @@
+# Add Site Location Form links
+custom_location.settings:
+  title: 'Site Location'
+  parent: system.admin_config_system
+  description: 'Manage site location setting form'
+  route_name: custom_location.site_location_settings
